@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/quote-aura-canvas/' : '/',
+  base: mode === 'production' ? '/Quotes' : '/',
   server: {
     host: "::",
     port: 8080,
